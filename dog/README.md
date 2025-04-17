@@ -22,7 +22,7 @@ A detailed Nmap scan was executed to enumerate open ports, services, and potenti
 ### 🔧 Command Used:
 ```bash
 nmap -sC -sV -A -T4 -Pn 10.10.11.58 -oN dog.txt
-
+```
 
 🧠 Explanation:
 
