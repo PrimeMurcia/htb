@@ -22,3 +22,20 @@ A detailed Nmap scan was executed to enumerate open ports, services, and potenti
 ### 🔧 Command Used:
 ```bash
 nmap -sC -sV -A -T4 -Pn 10.10.11.58 -oN dog.txt
+
+
+🧠 Explanation:
+
+    -sC: Default scripts
+
+    -sV: Service/version detection
+
+    -A: Aggressive scan (OS detection, version detection, script scanning, and traceroute)
+
+    -T4: Faster execution
+
+    -Pn: No ping
+
+    -oN: Output to dog.txt
+
+📸 Screenshot 2 & 3: Nmap Scan and Results
