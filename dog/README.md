@@ -1,8 +1,8 @@
 # 🐾 Penetration Test Report – HTB “Dog” Machine
 
 **Target IP**: `10.10.11.58`  
-**Date**: *(Insert Date)*  
-**Tester**: *(Your Name or Alias)*
+  
+**Tester**: *Prime*
 
 ---
 
