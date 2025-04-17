@@ -42,7 +42,7 @@ nmap -sC -sV -A -T4 -Pn 10.10.11.58 -oN dog.txt
 
 📸 Screenshot 2 & 3: Nmap Scan 
 
-![Nmap Scan](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss2.png?raw=true)
+![Nmap Scan](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/SS2.png?raw=true)
 
 Nmap Result
 
