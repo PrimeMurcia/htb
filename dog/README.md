@@ -42,6 +42,10 @@ nmap -sC -sV -A -T4 -Pn 10.10.11.58 -oN dog.txt
 
 📸 Screenshot 2 & 3: Nmap Scan and Results
 
+![Nmap Scan and Results](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss2.png?raw=true)
+![Nmap Scan and Results](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss3.png?raw=true)
+
+
 💡 3. Discovery – Exposed Git Repository
 
 The Nmap scan revealed that the .git directory was publicly accessible via HTTP.
