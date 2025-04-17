@@ -58,7 +58,9 @@ Used GitTools from InternetWache to dump the exposed repository.
 GitTools – InternetWache
 💻 Command Executed:
 
+```bash
 ./gitdumper.sh http://10.10.11.58/.git/ git-dump
+```
 
 This successfully downloaded the contents of the exposed .git directory for offline analysis.
 
