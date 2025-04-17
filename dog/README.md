@@ -11,7 +11,7 @@
 Before interacting with the target machine, a VPN connection was established via the HTB platform to securely access the internal lab environment.
 
 📸 **Screenshot 1**: *VPN connection confirmation*  
-`[(Insert Screenshot 1 here)](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss1.png?raw=true)`
+(https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss1.png?raw=true)
 
 ---
 
