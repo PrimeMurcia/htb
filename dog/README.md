@@ -76,4 +76,5 @@ GitTools – InternetWache
 This successfully downloaded the contents of the exposed .git directory for offline analysis.
 
 📸 Screenshot 4: Git dump execution result
-(Insert Screenshot 4 here)
+
+![Git dump execution result](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss4.png?raw=true)
