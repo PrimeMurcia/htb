@@ -40,10 +40,13 @@ nmap -sC -sV -A -T4 -Pn 10.10.11.58 -oN dog.txt
 
     -oN: Output to dog.txt
 
-📸 Screenshot 2 & 3: Nmap Scan and Results
+📸 Screenshot 2 & 3: Nmap Scan 
 
-![Nmap Scan and Results](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss2.png?raw=true)
-![Nmap Scan and Results](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss3.png?raw=true)
+![Nmap Scan](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss2.png?raw=true)
+
+Nmap Result
+
+![Nmap Result](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss3.png?raw=true)
 
 
 💡 3. Discovery – Exposed Git Repository
