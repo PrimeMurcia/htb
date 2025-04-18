@@ -149,7 +149,17 @@ An email address was discovered embedded in a configuration JSON file:
 
 🧑‍💻 Credentials Tested:
 Field	Value
+🧪 8. Authentication Attempt
+🎯 Target:
+
+    Web Login Page (likely at http://10.10.11.58/ or a /login path)
+
+🧑‍💻 Credentials Tested:
+Field	Value
 Username	tiffany@dog.htb
+Password	BackDropJ2024DS2024
+Username	tiffany@dog.htb
+
 Password	BackDropJ2024DS2024
 
 Log in
