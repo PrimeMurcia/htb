@@ -152,4 +152,6 @@ Field	Value
 Username	tiffany@dog.htb
 Password	BackDropJ2024DS2024
 
+Log in
+
 ![Log in](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss8.png?raw=true)
