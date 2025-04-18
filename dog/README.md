@@ -2,7 +2,7 @@
 
 **Target IP**: `10.10.11.58`  
   
-**Tester**: *Prime*
+**Tester**: *PRIME*
 
 ---
 
