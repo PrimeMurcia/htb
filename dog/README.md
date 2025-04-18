@@ -141,3 +141,15 @@ An email address was discovered embedded in a configuration JSON file:
 📄 Result:
 
 ![Result](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss7.png?raw=true)
+
+🧪 8. Authentication Attempt
+🎯 Target:
+
+    Web Login Page (likely at http://10.10.11.58/ or a /login path)
+
+🧑‍💻 Credentials Tested:
+Field	Value
+Username	tiffany@dog.htb
+Password	BackDropJ2024DS2024
+
+![Log in](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss8.png?raw=true)
