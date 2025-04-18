@@ -165,3 +165,21 @@ Password	BackDropJ2024DS2024
 Log in
 
 ![Log in](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss8.png?raw=true)
+
+🧩 9. Post-Login Reconnaissance – Backdrop CMS Dashboard
+
+Upon successful login with the recovered credentials, we explored the Backdrop CMS admin dashboard and identified several key details and potential misconfigurations:
+
+⚙️ System Configuration Summary
+
+Component	Value / Version	Remarks
+
+Component | Value / Version | Remarks
+Backdrop CMS | 1.27.1 | ✅ CMS identified — may be vulnerable depending on modules/plugins used
+PHP | 7.4.3-4ubuntu2.28 | ⚠️ EOL: PHP 7.4 is no longer supported — potential for known exploits
+MySQL | 8.0.41-0ubuntu0.20.04.1 | ✅ Modern version — not immediately vulnerable
+Web Server | Apache/2.4.41 (Ubuntu) | 📌 Confirmed server software
+CKEditor | 5 (Version 40.2.0) | ✅ May be exploitable via XSS or file upload if misconfigured
+Telemetry | Enabled | 🧪 Sends data to Backdrop — could be used for fingerprinting
+Access to update.php | Protected | ✅ Mitigates RCE from unauthorized access
+File System | Writable (public download method) | ⚠️ Writable FS may allow file upload exploitation
