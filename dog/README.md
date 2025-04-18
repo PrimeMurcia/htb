@@ -270,4 +270,6 @@ Set up listener:
 
 Once triggered, a reverse shell connection was established back to the attacking machine.
 
+![Shell](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss18.png?raw=true)
+
 
