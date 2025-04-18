@@ -241,7 +241,7 @@ Next Steps:
 
 ![Shell](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss12.png?raw=true)
 
-🧪 4. Exploitation: PHP Reverse Shell Upload
+🧪 11. Exploitation: PHP Reverse Shell Upload
 
 Upon identifying a file upload feature, a PHP reverse shell was weaponized and uploaded to gain remote access.
 
@@ -270,6 +270,14 @@ Set up listener:
 
 Once triggered, a reverse shell connection was established back to the attacking machine.
 
+🧑‍💻 12. Post-Exploitation
+
+User Shell Access:
+Successfully obtained a low-privilege shell.
+
+Checked for user flag:
+
 ![Shell](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss18.png?raw=true)
+
 
 
