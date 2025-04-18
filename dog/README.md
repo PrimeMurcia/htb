@@ -279,5 +279,14 @@ Checked for user flag:
 
 ![Shell](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss18.png?raw=true)
 
+🚀 13. Privilege Escalation
 
+Local enumeration performed with:
 
+![Shell](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss14.png?raw=true)
+
+After exploiting the discovered vector (details may vary), a root shell was obtained.
+
+Captured root flag:
+
+![Shell](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss14.png?raw=true)
