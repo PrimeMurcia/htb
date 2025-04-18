@@ -183,3 +183,5 @@ CKEditor | 5 (Version 40.2.0) | ✅ May be exploitable via XSS or file upload if
 Telemetry | Enabled | 🧪 Sends data to Backdrop — could be used for fingerprinting
 Access to update.php | Protected | ✅ Mitigates RCE from unauthorized access
 File System | Writable (public download method) | ⚠️ Writable FS may allow file upload exploitation
+
+![Version](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss10.png?raw=true)
