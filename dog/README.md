@@ -114,7 +114,9 @@ This information could allow an attacker to:
     Credentials should be stored in environment variables or secured configuration files that are not tracked by version control (e.g., using .gitignore).
 
 Dog Files
+
 ![DOG Files](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss5.png?raw=true)
 
-Setting File
+Credential Discovery – settings.php
+
 ![DOG Files](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss6.png?raw=true)
