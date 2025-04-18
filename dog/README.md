@@ -120,3 +120,24 @@ Dog Files
 Credential Discovery – settings.php
 
 ![DOG Files](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss6.png?raw=true)
+
+🕵️‍♀️ 7. Username Enumeration – Email Discovery
+
+During source code analysis, the following command was used to search for references to internal email addresses or usernames tied to the domain:
+🔎 Command Executed:
+
+grep -R "@dog.htb" *
+
+📄 Result:
+
+files/config_83dddd18e1ec67fd8ff5bba2453c7fb3/active/update.settings.json:        "tiffany@dog.htb"
+
+🧩 Interpretation:
+
+An email address was discovered embedded in a configuration JSON file:
+
+    ✅ Discovered Username/Email: tiffany@dog.htb
+
+📄 Result:
+
+![Result](https://github.com/PrimeMurcia/htb/blob/main/dog/ss/ss7.png?raw=true)
