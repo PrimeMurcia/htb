@@ -153,4 +153,10 @@ After gaining a reverse shell as `app-production`, I began local enumeration and
 
 ![Database](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code9.png?raw=true)
 
+## 🔐 Cracking Another MD5 Hash
+
+While exploring `database.db` or files under `instance/`, I found another hashed password:
+
+![Database](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code10.png?raw=true)
+
 
