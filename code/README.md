@@ -2,6 +2,10 @@
 
 > Initial enumeration and setup for the Hack The Box machine named **Code**.
 
+pwned
+
+![pwned](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code20.png?raw=true)
+
 ---
 
 ## 📅 Start Date
