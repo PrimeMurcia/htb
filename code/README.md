@@ -6,7 +6,7 @@
 
 ## 📅 Start Date
 
-`[Insert Date]`
+`4/19/2025`
 
 ---
 
@@ -16,7 +16,10 @@ Before starting, connect to the HTB VPN:
 
 ```bash
 sudo openvpn ~/Downloads/HTB.ovpn
+```
 
 Verify connectivity to the target machine:
 
+```bash
 ping -c 3 <HTB_Code_IP>
+```
