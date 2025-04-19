@@ -181,7 +181,10 @@ ssh martin@10.10.11.62
 ![martin](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code11.png?raw=true)
 ![martin](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code14.png?raw=true)
 
-🔍 Found task.json
+##  🔍 Found task.json then i modify and excute
 
+![martin](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code15.png?raw=true)
+![martin](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code16.png?raw=true)
+![martin](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code17.png?raw=true)
 
 
