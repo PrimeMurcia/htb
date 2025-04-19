@@ -5,4 +5,4 @@
 **Tester**: *PRIME*
 
 
-![Complete](https://github.com/PrimeMurcia/htb/blob/main/UnderPass/ss/under20.png?raw=true)
+![Complete](https://github.com/PrimeMurcia/htb/blob/main/UnderPass /ss/under20.png?raw=true)
