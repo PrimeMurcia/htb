@@ -1,6 +1,4 @@
 # 🐾 Penetration Test Report – HTB “UnderPass” Machine
-
-**Target IP**: `10.10.11.58`  
   
 **Tester**: *PRIME*
 
