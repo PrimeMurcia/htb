@@ -35,6 +35,8 @@ Performed a service and version detection scan with aggressive options:
 
 nmap -sC -sV -A -T4 -Pn -oN code.scan 10.10.11.62
 
+![Nmap Result](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code2.png?raw=true)
+
 🧪 Results Summary
 
 PORT     STATE SERVICE VERSION
@@ -61,6 +63,8 @@ http-server-header: gunicorn/20.0.4
 Access the Python Code Editor interface at:
 
 http://code.htb:5000
+
+![WebApp](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code3.png?raw=true)
 
 🛠️ Next Steps:
 
