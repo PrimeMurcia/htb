@@ -146,6 +146,11 @@ Inject the payload through the web interface:
 ![payload](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code8.png?raw=true)
 
 ---
+## 🧍‍♂️ User Flag Capture
+
+After gaining a reverse shell and exploring the target machine, 
+
+![user.txt](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code13.png?raw=true)
 
 ## 🧪 Post-Exploitation - Credentials Discovery
 
