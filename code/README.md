@@ -144,3 +144,12 @@ Inject the payload through the web interface:
     Trigger execution.
 
 ![payload](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code8.png?raw=true)
+
+---
+
+## 🧪 Post-Exploitation - Credentials Discovery
+
+After gaining a reverse shell as `app-production`, I began local enumeration and discovered a SQL database named `database.db` located in the project directory:
+
+
+
