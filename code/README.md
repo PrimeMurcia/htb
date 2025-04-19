@@ -164,4 +164,21 @@ While exploring `database.db` or files under `instance/`, I found another hashed
 
 ![Database](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code10.png?raw=true)
 
+---
+
+## 🧑‍💻 Logging in as Another User (Credential Reuse)
+
+After cracking the MD5 hash found in the `instance/database.db` file, I discovered valid credentials:
+
+- **Username**: `martin`
+- **Password**: `nafeelswordsmaster`
+
+### 🔐 Attempting SSH Access:
+
+```bash
+ssh martin@10.10.11.62
+```
+![martin](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code11.png?raw=true)
+
+
 
