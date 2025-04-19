@@ -151,5 +151,6 @@ Inject the payload through the web interface:
 
 After gaining a reverse shell as `app-production`, I began local enumeration and discovered a SQL database named `database.db` located in the project directory:
 
+![Database](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code9.png?raw=true)
 
 
