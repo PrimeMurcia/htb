@@ -1,17 +1,22 @@
-🖥️ Hack The Box - Code (Initial Enumeration Writeup)
+# 🔓 Hack The Box - Code
 
-Author: Prime Alyn Murcia
-Machine Name: Code
-Difficulty: Medium
-Date Started: [Insert Date]
-🔗 Initial Setup & Connection
+> Initial enumeration and setup for the Hack The Box machine named **Code**.
 
-Before beginning enumeration, connect to the HTB VPN using the .ovpn file:
+---
 
+## 📅 Start Date
+
+`[Insert Date]`
+
+---
+
+## 📡 HTB VPN Connection
+
+Before starting, connect to the HTB VPN:
+
+```bash
 sudo openvpn ~/Downloads/HTB.ovpn
 
-Once connected, ensure you can ping the machine:
+Verify connectivity to the target machine:
 
 ping -c 3 <HTB_Code_IP>
-
-Note: Replace <HTB_Code_IP> with the actual IP address of the "Code" machine.
