@@ -23,3 +23,4 @@ Verify connectivity to the target machine:
 ```bash
 ping -c 3 <HTB_Code_IP>
 ```
+![VPN Connection](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code1.png?raw=true)
