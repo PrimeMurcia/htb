@@ -101,6 +101,8 @@ On your Kali/Parrot or attacker machine, open a terminal and start Netcat to lis
 nc -lvnp 4444
 ```
 
+![netcat](https://github.com/PrimeMurcia/htb/blob/main/code/ss/code6.png?raw=true)
+
 Flags explanation:
 
     -l: Listen for incoming connections
