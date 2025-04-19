@@ -3,5 +3,5 @@
 **Tester**: *PRIME*
 
 
-![Complete](https://github.com/PrimeMurcia/htb/blob/main/titanic/ss/titanic20.png)raw=true)
+![Complete](https://github.com/PrimeMurcia/htb/blob/main/titanic/ss/titanic20.png)
 
